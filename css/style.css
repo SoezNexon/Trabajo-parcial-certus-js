@@ -1,0 +1,67 @@
+/* reinicio de estilos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  /* estilo de todos los botones */
+  .btn {
+    width: 100%;
+    
+  }
+  
+  /* cambiar color de botones al pasar mouse */
+  .btn:hover {
+    background: #cc0404d2;
+  }
+  
+  /* estilo del titulo de los formularios H2 */
+  h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 1px solid;
+    color: white;
+  }
+  
+  /* estilo de todos los inputs */
+  .form-control {
+    border: 2px solid #017bab;
+  }
+
+  /* estilo de los parrafos del formulario registro */
+.registroUsuario p {
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    color: white;
+  }
+
+
+  /* -----------------------------REGISTRO-------------------------------- */
+
+/* estilo del cuerpo y fondo del formulario registro */
+body {
+    background-image: url(/img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+   
+  }
+
+  
+  /* estilo del formulario registro */
+  .registroUsuario {
+    width: 650px;
+    background: #24303c;
+    margin-top: 50px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    border-top: 5px solid #017bab;
+    border-radius: 10px;
+  }
+  
+  /* estilo de los label del formulario registro */
+  .registroUsuario label {
+    color: white;
+  }
